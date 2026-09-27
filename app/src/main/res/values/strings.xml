@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">iPhone-style Dialer</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_recents">Recents</string>
+    <string name="tab_contacts">Contacts</string>
+    <string name="tab_keypad">Keypad</string>
+    <string name="tab_recordings">Voicemails/Audio</string>
+    <string name="tab_settings">Settings</string>
+
+    <string name="call_button">Call</string>
+    <string name="delete_button">Delete</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="search_contacts">Search Contacts</string>
+    <string name="search_recents">Search Recents</string>
+    <string name="no_recents">No Recent Calls</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="no_favorites">No Favorites Yet</string>
+    <string name="no_recordings">No Audio Recordings</string>
+
+    <string name="call_incoming">Incoming</string>
+    <string name="call_outgoing">Outgoing</string>
+    <string name="call_missed">Missed</string>
+
+    <string name="action_mute">Mute</string>
+    <string name="action_keypad">Keypad</string>
+    <string name="action_speaker">Speaker</string>
+    <string name="action_add_call">Add Call</string>
+    <string name="action_hold">Hold</string>
+    <string name="action_record">Record</string>
+    <string name="action_end_call">End Call</string>
+
+    <string name="recording_active">Recording Active</string>
+    <string name="recording_stopped">Recording Saved</string>
+
+    <string name="default_dialer_title">Default Phone App</string>
+    <string name="default_dialer_desc">Set iPhone-style Dialer as your primary system dialer to manage incoming/outgoing calls seamlessly.</string>
+    <string name="set_as_default">Set as Default Phone App</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "iPhone-style Dialer",
+  "description": "Clean, premium phone dialer with iOS-inspired aesthetic, call recents, favorites, contact management, in-call screen, recording log, and Telecom integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
