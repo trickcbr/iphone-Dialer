@@ -37,15 +37,9 @@ jobs:
           gradle-version: wrapper
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          api-level: 34
-          ndk-version: 25.1.8937393
-
-      - name: Accept Android SDK Licenses
         run: |
-          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
-
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --update
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;25.1.8937393"
       - name: Prepare Environment and Keystore
         run: |
           # 1. Create .env from template if missing
